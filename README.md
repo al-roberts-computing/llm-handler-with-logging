@@ -3,4 +3,4 @@ The scale and compute resources required to create and fine-tune Large Language 
 ## Setup 🛠️
 Download the repository, then install the Python requirements using `pip install -r requirements.txt`.
 ## Making an API call 📞
-`__main__.py` contains some example code to run the application. To run the package, you can execute `python -m custom-llm-handler` Any logs are saved to **llm_logs.txt** in the current running directory. The custom logging approach was done using a factory-singleton design pattern method, just to add an extra interesting coding method. If you save the model history, it will be saved to **model_history.json**.
+`__main__.py` contains some example code to run the application. To run the package, you can execute `python -m llm-handler-with-logging-main` Any logs are saved to **llm_logs.txt** in the current running directory. The custom logging approach was done using a factory-singleton design pattern method, just to add an extra interesting coding method. If you save the model history, it will be saved to **model_history.json**.
