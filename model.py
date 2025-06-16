@@ -9,8 +9,6 @@ from time import sleep
 from .llm_logger import Logger, LoggerFactory
 import tiktoken
 
-# add custom error types
-
 # History type alias for simplicity
 type History = List[Dict[str, str]]
 
